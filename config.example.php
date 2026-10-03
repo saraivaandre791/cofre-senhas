@@ -1,0 +1,2 @@
+<?php
+define('CHAVE_CRIPTOGRAFIA', 'ALTERE_PARA_SUA_CHAVE');

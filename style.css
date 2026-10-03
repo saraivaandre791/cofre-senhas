@@ -1,0 +1,169 @@
+/* Fonte Special Elite local */
+@font-face {
+  font-family: 'Special Elite';
+  src: url('fonts/SpecialElite.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Corpo geral */
+body {
+  font-family: 'Special Elite', cursive;
+  background: #000;   /* fundo preto sólido */
+  color: #ddd;        /* texto cinza claro para contraste */
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #00ffcc, #ff0066);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px #00ffcc;
+}
+header h1 {
+  color: #fff;
+  margin: 0;
+}
+header h2 {
+  color: #ffcc00;
+  margin: 5px 0 0 0;
+}
+
+/* Container principal */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(30,30,30,0.95);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+/* Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #444;
+}
+th {
+  background: #00ffcc;
+  color: #000;
+  text-transform: uppercase;
+}
+td {
+  color: #ddd;
+}
+
+/* Botões neon */
+.btn {
+  display: inline-block;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 0 12px #ffcc00;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffcc00, 0 0 40px #ff0066;
+  background: linear-gradient(90deg, #ffcc00, #ff0066);
+  color: #fff;
+}
+
+/* Formulários */
+form input, form select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background: #111;   /* inputs mais escuros sobre fundo preto */
+  color: #fff;
+}
+form input[type="submit"] {
+  background: #00ffcc;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffcc;
+}
+form input[type="submit"]:hover {
+  background: #ff0066;
+  color: #fff;
+  box-shadow: 0 0 20px #ff0066;
+}
+/* Botão padrão neon */
+.btn {
+  display: inline-block;
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Botão Adicionar */
+.btn-adicionar {
+  background: #00ffcc;
+  color: #000;
+  box-shadow: 0 0 12px #00ffcc;
+}
+.btn-adicionar:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #00ffcc, #0066ff);
+  color: #fff;
+  box-shadow: 0 0 20px #00ffcc, 0 0 40px #0066ff;
+}
+
+/* Botão Editar */
+.btn-editar {
+  background: #ffcc00;
+  color: #000;
+  box-shadow: 0 0 12px #ffcc00;
+}
+.btn-editar:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ffcc00, #ff0066);
+  color: #fff;
+  box-shadow: 0 0 20px #ffcc00, 0 0 40px #ff0066;
+}
+
+/* Botão Excluir */
+.btn-excluir {
+  background: #ff0066;
+  color: #fff;
+  box-shadow: 0 0 12px #ff0066;
+}
+.btn-excluir:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff0066, #ff0000);
+  color: #fff;
+  box-shadow: 0 0 20px #ff0066, 0 0 40px #ff0000;
+}
+
+/* Botão Sair */
+.btn-sair {
+  background: #444;
+  color: #fff;
+  box-shadow: 0 0 12px #888;
+}
+.btn-sair:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #444, #222);
+  color: #ffcc00;
+  box-shadow: 0 0 20px #ffcc00;
+}
